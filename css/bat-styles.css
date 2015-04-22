@@ -1,0 +1,192 @@
+/*!
+ * @file bat-styles.css
+ *
+ * Styles for bbPress Activity Tracker plugin.
+ *
+ * Copyright (c) 2015, Ankit Pokhrel <info@ankitpokhrel.com.np, @ankitpokhrel>
+ */
+.bat-icon {
+	font-size: 24px;
+}
+
+.green {
+	color: #009a31;
+}
+
+.red {
+	color: red;
+}
+
+.purple {
+	color: #9900FF;
+}
+
+.mild-green {
+	color: #42db3d;
+}
+
+.light-green {
+	color: #a6cb45;
+}
+
+.dark-orange {
+	color: #ff6600;
+}
+
+.bat-score {
+	padding: 3px 10px;
+	color: #fff;
+}
+
+.bg-green, .bat-legends .green span.legend-block {
+	background: #009a31;
+}
+
+.bg-red, .bat-legends .red span.legend-block {
+	background: red;
+}
+
+.bg-light-green, .bat-legends .light-green span.legend-block {
+	background: #a6cb45;
+}
+
+.bg-mild-green, .bat-legends .mild-green span.legend-block {
+	background: #42db3d;
+}
+
+.bg-dark-orange, .bat-legends .dark-orange span.legend-block {
+	background: #ff6600;
+}
+
+.bg-gray {
+	background: #9fbf8c;
+}
+
+.bg-purple, .bat-legends .purple span.legend-block {
+	background: #9900FF;
+}
+
+.bat-legends {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.bat-legends p {
+	float: left;
+}
+
+.bat-legends span {
+	float: left;
+	margin: 5px 0;
+}
+
+.bat-legends span.legend-title {
+	color: #222;
+}
+
+.bat-legends div {
+	display: inline-block;
+}
+
+span.legend-title {
+  padding: 0 15px 0 5px;
+}
+
+.bat-legends span.legend-block {
+	width: 15px;
+	height: 15px;
+	margin: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+canvas#bat-chart {
+	width: 100%;
+	height: 100%;
+}
+
+.left {
+	float: left;
+}
+
+.bat-forum-details {
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 15px;
+	color: black;
+}
+
+.bat-average-score {
+	text-align: center;
+	margin: 15px 0;
+	font-size: 12px;
+}
+
+.bat-average-score label {
+	background: rgb(95, 158, 160);
+	padding: 3px 0 3px 10px;
+	color: #fff;
+}
+
+.bat-bbp-image-forums, 
+.bat-bbp-image-topics,
+.bat-bbp-image-replies {
+	margin-right: 15px;
+}
+
+.bat-bbp-image-forums:before {
+	content: "\f449";
+}
+
+.bat-bbp-image-topics:before {
+	content: "\f450";
+}
+
+.bat-bbp-image-replies:before {
+	content: "\f451";
+}
+
+.bat-forum-details a {
+	float: none;
+}
+
+@media all and (max-width: 320px) {
+	#bat-forum-status {
+		font-size: 10px;
+	}
+}
+
+/* Settings Page */
+.bat-main-settings input[type='text'].bat-input, .bat-main-settings select.bat-select {
+	padding: 7px !important;
+	border: 1px solid #ccc;
+	min-width: 200px;
+	font-size: 13px !important;
+}
+
+.bat-main-settings select.bat-select {
+	height: 38px;
+}
+
+.bat-main-settings small {
+	margin-left: 5px;
+	font-style: italic;
+}
+
+.bat-main-settings .submit {
+	text-align: center;
+}
+
+.bat-nothing-found {
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	color: #777;
+}
+
+.bat-danger-zone {
+	padding: 10px;
+}
